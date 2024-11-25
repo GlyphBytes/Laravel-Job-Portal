@@ -14,22 +14,32 @@ export default {
             fontFamily: {
                 poppins: ['Poppins'],
             },
-            colors:{
-                'primary-blue':'#111827',
-                'dark-blue':'#111840',
-                'light-blue':'#4A5568',
-                'primary-yellow':'#FFC107',
-                'highlight-yellow':'#FF9800',
-                'primary-gray':'#757575',
-                'light-gray':'#F5F5F5',
-                'transparent-black':'rgba(0, 0, 0, 0.5)'
+            colors: {
+                // 'primary-blue':'#111827',
+                'dark-blue': '#2d3748',
+                'light-blue': '#4A5568',
+                'primary-yellow': '#FFC107',
+                'highlight-yellow': '#FF9800',
+                'primary-gray': '#757575',
+                'light-gray': '#F5F5F5',
+                'transparent-black': 'rgba(0, 0, 0, 0.5)',
+                'primary-blue':'rgb(26, 32, 44)',
             },
-            screens:{
-                'lg':'1040px',
-                'sm':'512px'
+            backgroundImage: {
+                // 'primary-blue': 'linear-gradient(-90deg, #111827, #1e293b)',
+                // 'primary-blue': 'linear-gradient(-90deg, #111827, #3b82f6)',
+                // 'primary-blue': 'linear-gradient(-90deg, #111827, #1e3a8a)',
+                // 'primary-blue': 'linear-gradient(-90deg, #111827, #2563eb)',
+
             },
-            spacing:{
-                '100':'30rem'
+            screens: {
+                'lg': '1040px',
+                'md':'800px',
+                'sm': '512px',
+                'xs': '370px'
+            },
+            spacing: {
+                '100': '30rem'
             }
         },
     },

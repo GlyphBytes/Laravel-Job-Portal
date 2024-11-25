@@ -22,9 +22,10 @@
     @endif
 </head>
 
-<body class="font-poppins bg-primary-blue overflow-x-hidden max-w-full">
-    <x-navbar />
+<body class="font-poppins bg-gray-200 overflow-x-hidden max-w-full">
+    <x-global.navbar />
     {{$slot}}
+    <x-global.footer/>
 </body>
 
 </html>
