@@ -33,7 +33,7 @@
                             Login
                         </span>
                     </x-global.button>
-                    <x-global.button class=" text-white hover:bg-highlight-yellow bg-primary-yellow w-fit px-4">
+                    <x-global.button href="/register/employee" class=" text-white hover:bg-highlight-yellow bg-primary-yellow w-fit px-4">
                         <i class="fas fa-user-plus"></i>
                         <span>
                             Register

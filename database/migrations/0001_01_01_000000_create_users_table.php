@@ -13,6 +13,7 @@ return new class extends Migration
     {
 
         // Users table
+
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('email')->unique();
@@ -28,6 +29,7 @@ return new class extends Migration
         // Companies table 
         Schema::create('companies',function(Blueprint $table){
             $table->id();
+            $table->string('name');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('company_size');
             $table->string('address');
